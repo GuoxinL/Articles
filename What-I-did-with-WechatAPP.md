@@ -36,48 +36,48 @@
 
 部分内容如下：
 
-框架部分：
+* 框架部分：
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/framework.jpg)
 
-组件部分：
+* 组件部分：
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/component.jpg)
 
-API 部分：
+* API 部分：
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/API.jpg)
 
-工具部分：
+* 工具部分：
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/tool.jpg)
 
 安利我写的一个轮子，内容如下图：
 
-登录页
+* 登录页
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/signin.jpg)
 
-主页
+* 主页
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/index.jpg)
 
-个人中心
+* 个人中心
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/profile.png)
 
-用户详情
+* 用户详情
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/user.jpg)
 
-帖子详情
+* 帖子详情
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/post.jpg)
 
-我的帖子
+* 我的帖子
 
 ![](https://github.com/Romeo0906/Articles/blob/master/pics/What-I-did-with-WechatAPP/mypost.jpg)
 
-主要实现了发帖分享的社交功能，实现了发帖、看贴、排行、收藏、查看用户等功能，[GitHub  地址](https://github.com/Romeo0906/WeChatAPP)。
+主要实现了发帖分享的社交功能，实现了发帖、看贴、排行、收藏、查看用户等功能，源代码在[GitHub](https://github.com/Romeo0906/WeChatAPP)。
 
 本例中使用了微信官方提供的框架、组件、API 和一些基础的开发技巧，仅作为学习使用，欢迎 star 或者 fork！
