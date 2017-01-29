@@ -25,11 +25,39 @@
 小程序开发[官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/)。
 
 微信官方小程序示例 DEMO（在小程序中搜索”小程序示例“）：
-![](https://oj6nu6qqs.bkt.clouddn.com/avatar.jpg) ![](https://oj6nu6qqs.bkt.clouddn.com/avatar.jpg)
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo1.jpg) ![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo2.jpg)
 
 我从内测时就开始关注小程序，也在学习中创造过一些很简单的轮子，并参与了公司的小程序开发。
 
-期间我参加过很多会，听过很多大咖的分享，开发过程中也踩到了许多坑，有些在研究过后被填平，有些就被绕过了。我总结过一篇[小程序开发文档没有告诉你的那些事]()，建议通读文档之后再来阅读会理解更加深入。
+期间我参加过很多会，听过很多大咖的分享，开发过程中也踩到了许多坑，有些在研究过后被填平，有些就被绕过了。我总结过一篇[小程序开发文档没有告诉你的那些事](https://github.com/Romeo0906/WeChatAPP/blob/master/Something-that-wxadoc-don't-tell-you.md)，建议通读官方文档之后再来阅读理解会更加深入。
 
-安利我写的一个轮子，[GitHub  地址]()，内容如下图：
-![](https://oj6nu6qqs.bkt.clouddn.com/avatar.jpg)
+安利我写的一个轮子，内容如下图：
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/signin.jpg)
+
+登录页
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/index.jpg)
+
+主页
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/profile.png)
+
+个人中心
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/user.jpg)
+
+用户详情
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/post.jpg)
+
+帖子详情
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/mypost.jpg)
+
+我的帖子
+
+主要实现了发帖分享的社交功能，实现了发帖、看贴、排行、收藏、查看用户等功能，[GitHub  地址](https://github.com/Romeo0906/WeChatAPP)。
+
+本例中使用了微信官方提供的框架、组件、API 和一些基础的开发技巧，仅作为学习使用，欢迎 star 或者 fork！
