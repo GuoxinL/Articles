@@ -26,7 +26,9 @@
 
 微信官方小程序示例 DEMO（在小程序中搜索”小程序示例“）：
 
-![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo1.jpg) ![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo2.jpg)
+![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo1.jpg) 
+
+![](https://github.com/Romeo0906/Articles/blob/master/pics/wedemo2.jpg)
 
 我从内测时就开始关注小程序，也在学习中创造过一些很简单的轮子，并参与了公司的小程序开发。
 
