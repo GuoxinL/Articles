@@ -505,7 +505,7 @@ Netfilter/iptables IP 信息包过滤系统实际由 netfilter 和 iptables 两�
 
 	netfilter 提供了一系列的表（table），每个表由若干个链（chain）组成，每条链由若干条规则（rule）组成。实际上，netfilter 是表的容器，表是链的容器，链是规则的容器。
 
-	**规则（rule）**是设置过滤数据包的具体条件，如 IP 地址、端口、协议以及网络接口等信息。
+	规则（rule）是设置过滤数据包的具体条件，如 IP 地址、端口、协议以及网络接口等信息。
 
 	|条件|说明|
 	|----|----|
@@ -516,7 +516,7 @@ Netfilter/iptables IP 信息包过滤系统实际由 netfilter 和 iptables 两�
 	|Fragment|不同 Network Interface 的网络系统会有不同的封包长度的限制，因此在不同的网络系统间传输数据时，数据包可能会被裁切（Fragment）。此规则针对裁切后的封包信息进行监控和过滤。|
 	|Counter|数据包的数量|
 
-	**动作（target）**是对 netfilter 检测通过的数据包的操作内容。
+	动作（target）是对 netfilter 检测通过的数据包的操作内容。
 
 	|动作|说明|
 	|----|----|
@@ -526,7 +526,7 @@ Netfilter/iptables IP 信息包过滤系统实际由 netfilter 和 iptables 两�
 	|LOG|将数据包信息写入日志|
 	|QUEUE|传送给应用程序处理该数据包|
 
-	**链（chain）**是数据包传递过程中所有规则的组合，规则链通常分为**内置链（Build-in Chains）**和**用户自定义链（User-Defined Chains）**。netfilter 常用有五个内置链：
+	链（chain）是数据包传递过程中所有规则的组合，规则链通常分为内置链（Build-in Chains）和用户自定义链（User-Defined Chains）。netfilter 常用有五个内置链：
 
 	|内置链|说明|
 	|------|----|
@@ -536,7 +536,7 @@ Netfilter/iptables IP 信息包过滤系统实际由 netfilter 和 iptables 两�
 	|FORWARD|数据包通过路由表，目的地不为本机|
 	|POSTROUTING|数据包通过路由表后，发送到网卡接口之前|
 
-	**表（table）**是 netfilter 根据数据包处理需求（过滤、地址转换或信息变更）对链进行的组合，共有三个表：filter、nat 和 mangle。
+	表（table）是 netfilter 根据数据包处理需求（过滤、地址转换或信息变更）对链进行的组合，共有三个表：filter、nat 和 mangle。
 
 	filter 是 netfilter 默认的表，通常使用该表进行过滤的设置，其包含 INPUT、FORWARD 和 OUTPUT 内置链，几乎可以设定所有的动作。
 
