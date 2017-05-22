@@ -599,7 +599,7 @@ Netfilter/iptables IP 信息包过滤系统实际由 netfilter 和 iptables 两�
 
 最后数据包发送至外网。
 
-[!]()
+[!](https://github.com/Romeo0906/Articles/blob/master/pics/Build%20and%20Configure%20Internet%20Servers%20on%20Linux/iptables%20route.jpg)
 
 #### NAT 简介
 
